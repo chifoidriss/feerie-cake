@@ -16,11 +16,11 @@
 
 .card {
     margin: 10px auto;
-    padding: 5px auto;
+    padding: 5px;
 }
 
 .hd-block {
-    padding: 20px 10px;
+    padding: 10px;
     margin: 5px auto;
 }
 
@@ -43,10 +43,6 @@
     color: #FFF !important;
 }
 
-.hd-block .card {
-    padding: 15px;
-}
-
 .hd-pricing-card {
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -55,7 +51,7 @@
 
 .hd-pricing {
     margin: 10px auto;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .hd-pricing .bar {
@@ -126,7 +122,6 @@
     padding: auto 25px;
 }
 
-
 .hd-card-block-6 .text-head {
     font-family: 'French Script MT';
     font-size: 32px;
@@ -161,4 +156,71 @@
 
 .round {
     border-radius: 0 8px 8px 0;
+}
+
+@media (max-width: 449px) {
+    .hd-pricing-card .title { font-size: 34px; }
+    .hd-pricing-card .sub-title { font-size: 15px; }
+    .hd-pricing-card .title-1 { font-size: 30px; }
+    .hd-pricing-card .sub-title-1 { font-size: 12px; }
+    .hd-block .card .title { font-size: 19px; }
+    .hd-block .card .sub-title { font-size: 15px; }
+    .hd-card-block-6 .text-head { font-size: 24px; }
+    .hd-block p { font-size: 12px; }
+    .hd-card-block-7 .block-circle { height: 60px; width: 60px; bottom: -40px; }
+}
+
+@media (max-width: 400px) {
+    .hd-pricing-card .title { font-size: 30px; }
+    .hd-pricing-card .sub-title { font-size: 14px; }
+    .hd-pricing-card .title-1 { font-size: 28px; }
+    .hd-pricing-card .sub-title-1 { font-size: 11px; }
+    .hd-block .card .title { font-size: 18px; }
+    .hd-block .card .sub-title { font-size: 14px; }
+    .hd-card-block-6 .text-head { font-size: 22px; }
+    .hd-block p { font-size: 11px; }
+}
+
+@media (max-width: 369px) {
+    .hd-pricing-card .title { font-size: 28px; }
+    .hd-pricing-card .sub-title { font-size: 14px; }
+    .hd-pricing-card .title-1 { font-size: 26px; }
+    .hd-pricing-card .sub-title-1 { font-size: 10px; }
+    .hd-block .card .title { font-size: 16px; }
+    .hd-block .card .sub-title { font-size: 12px; }
+    .hd-card-block-6 .text-head { font-size: 20px; }
+    .hd-block p { font-size: 11px; }
+}
+
+@media (max-width: 359px) {
+    .hd-pricing-card .title { font-size: 28px; }
+    .hd-pricing-card .sub-title { font-size: 14px; }
+    .hd-pricing-card .title-1 { font-size: 26px; }
+    .hd-pricing-card .sub-title-1 { font-size: 10px; }
+    .hd-block .card .title { font-size: 16px; }
+    .hd-block .card .sub-title { font-size: 12px; }
+    .hd-card-block-6 .text-head { font-size: 20px; }
+    .hd-block p { font-size: 11px; }
+}
+
+@media (max-width: 349px) {
+    .hd-pricing-card .title { font-size: 24px; }
+    .hd-pricing-card .sub-title { font-size: 11px; }
+    .hd-pricing-card .title-1 { font-size: 24px; }
+    .hd-pricing-card .sub-title-1 { font-size: 10px; }
+    .hd-block .card .title { font-size: 14px; }
+    .hd-block .card .sub-title { font-size: 10px; }
+    .hd-card-block-6 .text-head { font-size: 24px; }
+    .hd-block p { font-size: 11px; }
+}
+
+@media (max-width: 299px) {
+    .hd-pricing-card .title { font-size: 21px; }
+    .hd-pricing-card .sub-title { font-size: 9px; }
+    .hd-pricing-card .title-1 { font-size: 20px; }
+    .hd-pricing-card .sub-title-1 { font-size: 8px; }
+    .hd-block .card .title { font-size: 10px; }
+    .hd-block .card .sub-title { font-size: 8px; }
+    .hd-card-block-6 .text-head { font-size: 20px; }
+    .hd-block p { font-size: 10px; }
 }
