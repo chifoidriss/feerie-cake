@@ -136,6 +136,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom left;
+    /*background-origin: content-box;*/
+    /*padding: ;*/
 }
 
 .hd-card-block-7 .text-block {
