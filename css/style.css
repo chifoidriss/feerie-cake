@@ -132,9 +132,10 @@
 
 .hd-card-block-7 {
     background-image: url(../img/bg2.png);
-    background-size: cover;
+    /*background-size: auto 75%;*/
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: bottom left;
 }
 
 .hd-card-block-7 .text-block {
